@@ -1,0 +1,9 @@
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\src\WellBeings.Infrastructure\bin\Debug\netcoreapp2.2\WellBeings.Infrastructure.deps.json
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\src\WellBeings.Infrastructure\bin\Debug\netcoreapp2.2\WellBeings.Infrastructure.dll
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\src\WellBeings.Infrastructure\bin\Debug\netcoreapp2.2\WellBeings.Infrastructure.pdb
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\src\WellBeings.Infrastructure\obj\Debug\netcoreapp2.2\WellBeings.Infrastructure.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\src\WellBeings.Infrastructure\obj\Debug\netcoreapp2.2\WellBeings.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\src\WellBeings.Infrastructure\obj\Debug\netcoreapp2.2\WellBeings.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\src\WellBeings.Infrastructure\obj\Debug\netcoreapp2.2\WellBeings.Infrastructure.AssemblyInfo.cs
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\src\WellBeings.Infrastructure\obj\Debug\netcoreapp2.2\WellBeings.Infrastructure.dll
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\src\WellBeings.Infrastructure\obj\Debug\netcoreapp2.2\WellBeings.Infrastructure.pdb

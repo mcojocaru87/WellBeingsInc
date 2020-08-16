@@ -1,0 +1,17 @@
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\bin\Debug\netcoreapp2.2\WellBeings.WebAPI.deps.json
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\bin\Debug\netcoreapp2.2\WellBeings.WebAPI.runtimeconfig.json
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\bin\Debug\netcoreapp2.2\WellBeings.WebAPI.runtimeconfig.dev.json
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\bin\Debug\netcoreapp2.2\WellBeings.WebAPI.dll
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\obj\Debug\netcoreapp2.2\WellBeings.WebAPI.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\obj\Debug\netcoreapp2.2\WellBeings.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\obj\Debug\netcoreapp2.2\WellBeings.WebAPI.RazorAssemblyInfo.cache
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\obj\Debug\netcoreapp2.2\WellBeings.WebAPI.RazorAssemblyInfo.cs
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\obj\Debug\netcoreapp2.2\WellBeings.WebAPI.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\obj\Debug\netcoreapp2.2\WellBeings.WebAPI.AssemblyInfo.cs
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\obj\Debug\netcoreapp2.2\WellBeings.WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\bin\Debug\netcoreapp2.2\WellBeings.WebAPI.pdb
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\obj\Debug\netcoreapp2.2\WellBeings.WebAPI.dll
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\obj\Debug\netcoreapp2.2\WellBeings.WebAPI.pdb
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\bin\Debug\netcoreapp2.2\WellBeings.Infrastructure.dll
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\bin\Debug\netcoreapp2.2\WellBeings.Infrastructure.pdb
+C:\Users\admin\source\repos\mcojocaru87\WellBeingsInc\WellBeings.WebAPI\obj\Debug\netcoreapp2.2\WellBeings.WebAPI.csproj.CopyComplete
