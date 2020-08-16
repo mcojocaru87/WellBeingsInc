@@ -1,0 +1,53 @@
+<nav aria-label="breadcrumb" style="padding:30px;">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a [routerLink]='["/"]'>Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Retailers</li>
+  </ol>
+</nav>
+
+<div style="padding:0 30px 10px 30px">
+  <div class="card">
+    <div class="card-header">
+      Canadian Retailers
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-sm-12 col-lg-3" *ngFor="let retailer of ca_retailers">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{retailer.name}}</h5>
+              <h6 class="card-subtitle mb-2 text-muted">{{retailer.website}}</h6>
+              <p class="card-text">{{retailer.description}}</p>
+              <a href="javascript:void(0);" class="card-link">Visit</a>
+              <a href="javascript:void(0);" class="card-link">Buy Product</a>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="padding:0 30px 0 30px">
+  <div class="card">
+    <div class="card-header">
+      U.S. Retailers
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-sm-12 col-lg-3" *ngFor="let retailer of us_retailers">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{retailer.name}}</h5>
+              <h6 class="card-subtitle mb-2 text-muted">{{retailer.website}}</h6>
+              <p class="card-text">{{retailer.description}}</p>
+              <a href="javascript:void(0);" class="card-link">Visit</a>
+              <a href="javascript:void(0);" class="card-link">Buy Product</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

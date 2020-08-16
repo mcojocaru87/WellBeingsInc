@@ -1,0 +1,75 @@
+<nav aria-label="breadcrumb" style="padding:30px;">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a [routerLink]='["/"]'>Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+  </ol>
+</nav>
+<div class="row" style="padding:0 30px 0 30px">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Contact Us</h5>
+        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" [ngClass]="{'was-validated': formSubmitted.invalid}" *ngIf="showContactForm">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="First Name" formControlName="firstName" [ngClass]="{ 'is-invalid': formSubmitted && contactForm.controls['firstName'].errors }" />
+            <div *ngIf="formSubmitted && contactForm.controls['firstName'].errors" class="invalid-feedback">
+              <div *ngIf="contactForm.controls['firstName'].errors.required">First Name is required</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Last Name" formControlName="lastName" [ngClass]="{ 'is-invalid': formSubmitted && contactForm.controls['lastName'].errors }" />
+            <div *ngIf="formSubmitted && contactForm.controls['lastName'].errors" class="invalid-feedback">
+              <div *ngIf="contactForm.controls['lastName'].errors.required">Last Name is required</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email Address" formControlName="email" [ngClass]="{ 'is-invalid': formSubmitted && contactForm.controls['email'].errors }" />
+            <div *ngIf="formSubmitted && contactForm.controls['email'].errors" class="invalid-feedback">
+              <div *ngIf="contactForm.controls['email'].errors.required">Email is required</div>
+              <div *ngIf="contactForm.controls['email'].errors.email">Email must be a valid email address</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="tel" class="form-control" placeholder="Phone" formControlName="phone" [ngClass]="{ 'is-invalid': formSubmitted && contactForm.controls['phone'].errors }" />
+            <div *ngIf="formSubmitted && contactForm.controls['phone'].errors" class="invalid-feedback">
+              <div *ngIf="contactForm.controls['phone'].errors.required">Phone is required</div>
+              <div *ngIf="contactForm.controls['phone'].errors.minlength">Phone must be at least 10 characters</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" placeholder="Enter your message for us here" rows="7" formControlName="message" [ngClass]="{ 'is-invalid': formSubmitted && contactForm.controls['message'].errors }"></textarea>
+            <div *ngIf="formSubmitted && contactForm.controls['message'].errors" class="invalid-feedback">
+              <div *ngIf="contactForm.controls['message'].errors.required">Message is required</div>
+              <div *ngIf="contactForm.controls['message'].errors.minlength">Message must be at least 25 characters</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+        <div class="alert" *ngIf="showAlertMsg"
+             [ngClass]="{'alert-success': formSubmittedSuccesfully,
+                           'alert-info': formSubmittedAlready }">
+          {{alertMsg}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Our Office</h5>
+        <address>
+          <strong>Well Beings, Inc.</strong><br />
+          185 Plains Rd E #1<br />
+          Burlington, ON L2T 2C4<br />
+          <abbr title="Phone">P:</abbr> (905) 631-9355<br />
+          <abbr title="Email">E:</abbr> contact@wellbeings.ca
+        </address>
+        <hr />
+        <div #mapWrapper id="map"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
