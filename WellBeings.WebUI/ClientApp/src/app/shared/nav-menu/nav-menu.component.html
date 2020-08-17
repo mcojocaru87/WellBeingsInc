@@ -1,7 +1,7 @@
 <header>
   <nav class='navbar navbar-expand-sm navbar-toggleable-sm navbar-light mb-3 text-white'>
     <div class="container" style="max-width: 1440px !important; margin: 15px 4px auto;">
-      <a class="navbar-brand" [routerLink]='["/"]'><img alt="Logo" src="assets/logo.png" /></a>
+      <a class="navbar-brand" [routerLink]='["/home"]'><img alt="Logo" src="assets/logo.png" /></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Toggle navigation"
               [attr.aria-expanded]="isExpanded" (click)="toggle()">
         <span class="navbar-toggler-icon"></span>
@@ -9,16 +9,16 @@
       <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse" [ngClass]='{"show": isExpanded}'>
         <ul class="navbar-nav flex-grow" style="padding-right: 61px;">
           <li class="nav-item" [routerLinkActive]='["link-active"]' [routerLinkActiveOptions]='{ exact: true }'>
-            <a class="nav-link text-white" [routerLink]='["/"]'>HOME</a>
+            <a class="nav-link text-white" [routerLink]='["/home"]' routerLinkActive="active">HOME</a>
           </li>
           <li class="nav-item" [routerLinkActive]='["link-active"]'>
-            <a class="nav-link text-white" [routerLink]='["/products"]'>PRODUCTS</a>
+            <a class="nav-link text-white" [routerLink]='["/products"]' routerLinkActive="active">PRODUCTS</a>
           </li>
           <li class="nav-item" [routerLinkActive]='["link-active"]'>
-            <a class="nav-link text-white" [routerLink]='["/retailers"]'>RETAILERS</a>
+            <a class="nav-link text-white" [routerLink]='["/retailers"]' routerLinkActive="active">RETAILERS</a>
           </li>
           <li class="nav-item" [routerLinkActive]='["link-active"]'>
-            <a class="nav-link text-white" [routerLink]='["/contact-us"]'>CONTACT US</a>
+            <a class="nav-link text-white" [routerLink]='["/contact-us"]' routerLinkActive="active">CONTACT US</a>
           </li>
         </ul>
       </div>

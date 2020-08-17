@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { RouterModule } from '@angular/router';
+import { RouterModule, RouterLinkActive } from '@angular/router';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { StorageServiceModule } from 'angular-webstorage-service';
 
@@ -37,7 +37,8 @@ import { ContactComponent } from './pages/contact/contact.component';
     FormsModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full' },
+      { path: '', redirectTo: '/home', pathMatch: 'full' },
+      { path: 'home', component: HomeComponent },
       { path: 'retailers', component: RetailersComponent },
       { path: 'contact-us', component: ContactComponent },
       { path: 'products', component: ProductsComponent }
@@ -45,7 +46,8 @@ import { ContactComponent } from './pages/contact/contact.component';
   ],
   providers: [
     ProductService,
-    PagerService],
+    PagerService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
